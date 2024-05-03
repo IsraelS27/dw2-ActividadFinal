@@ -1,0 +1,31 @@
+/* Estilos para el encabezado principal */
+h1 {
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+/* Estilos para los enlaces de navegación en la barra de navegación */
+nav a + a {
+  margin-left: 20px; /* Agrega un margen izquierdo entre los enlaces de navegación */
+}
+
+nav a {
+  padding: 1rem; /* Añade relleno a los enlaces de navegación */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  margin-top: 10px; /* Agrega margen superior a los enlaces */
+  display: inline-block; /* Muestra los enlaces como bloques en línea */
+  background-color: #e8e8e8; /* Color de fondo de los enlaces */
+  color: #3d3d3d; /* Color del texto de los enlaces */
+  border-radius: 4px; /* Añade bordes redondeados a los enlaces */
+}
+
+/* Estilos al pasar el cursor sobre los enlaces de navegación */
+nav a:hover {
+  color: white; /* Cambia el color del texto al pasar el cursor */
+  background-color: #42545C; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos al hacer clic en los enlaces de navegación */
+nav a:active {
+  background-color: black; /* Cambia el color de fondo al hacer clic */
+}

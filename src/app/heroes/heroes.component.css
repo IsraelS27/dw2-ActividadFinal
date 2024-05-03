@@ -1,0 +1,130 @@
+/* HeroesComponent's private CSS styles */
+/*.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+.heroes li {
+  display: flex;
+}
+
+.heroes button {
+  flex: 1;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: 0;
+  border-radius: 4px;
+  display: flex;
+  align-items: stretch;
+  height: 1.8em;
+}
+
+.heroes button:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+  left: .1em;
+}
+
+.heroes button:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.heroes button.selected {
+  background-color: black;
+  color: white;
+}
+
+.heroes button.selected:hover {
+  background-color: #505050;
+  color: white;
+}
+
+.heroes button.selected:active {
+  background-color: black;
+  color: white;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #405061;
+  line-height: 1em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.heroes .name {
+  align-self: center;
+}
+*/
+
+
+/* Ajustes para la lista de héroes */
+.heroes {
+  margin: 0 0 2em 0; /* Margen en la lista de héroes */
+  list-style-type: none; /* No mostrar viñetas en la lista */
+  padding: 0; /* Eliminar el relleno */
+  width: 15em; /* Ancho de la lista de héroes */
+}
+
+/* Estilos para cada ítem de la lista de héroes */
+.heroes li {
+  position: relative; /* Posición relativa */
+  cursor: pointer; /* Cambiar el cursor a un puntero al pasar por encima */
+}
+
+/* Estilos al pasar el cursor sobre un ítem de la lista de héroes */
+.heroes li:hover {
+  left: .1em; /* Mover el ítem ligeramente hacia la izquierda */
+}
+
+/* Estilos para los enlaces dentro de la lista de héroes */
+.heroes a {
+  color: #333; /* Color del texto */
+  text-decoration: none; /* No subrayar los enlaces */
+  background-color: #EEE; /* Color de fondo */
+  margin: .5em; /* Margen entre los enlaces */
+  padding: .3em 0; /* Relleno */
+  height: 1.6em; /* Altura */
+  border-radius: 4px; /* Radio de borde */
+  display: block; /* Mostrar como bloque */
+  width: 100%; /* Ancho del enlace */
+}
+
+/* Estilos al pasar el cursor sobre un enlace */
+.heroes a:hover {
+  color: #2c3a41; /* Cambiar el color del texto al pasar el cursor */
+  background-color: #e6e6e6; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+/* Estilos al hacer clic en un enlace */
+.heroes a:active {
+  background-color: #525252; /* Cambiar el color de fondo al hacer clic */
+  color: #fafafa; /* Cambiar el color del texto al hacer clic */
+}
+
+/* Estilos para el distintivo de la lista de héroes */
+.heroes .badge {
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: small; /* Tamaño de fuente pequeño */
+  color: white; /* Color del texto */
+  padding: 0.8em 0.7em 0 0.7em; /* Relleno */
+  background-color: #405061; /* Color de fondo */
+  line-height: 1em; /* Altura de línea */
+  position: relative; /* Posición relativa */
+  left: -1px; /* Mover ligeramente hacia la izquierda */
+  top: -4px; /* Mover ligeramente hacia arriba */
+  height: 1.8em; /* Altura */
+  min-width: 16px; /* Ancho mínimo */
+  text-align: right; /* Alinear el texto a la derecha */
+  margin-right: .8em; /* Margen derecho */
+  border-radius: 4px 0 0 4px; /* Radio de borde */
+}

@@ -1,0 +1,50 @@
+
+<!--<div *ngIf="hero">
+
+    <h2>Detalles {{hero.name | uppercase}}</h2>
+    <div><span>Id: </span>{{hero.id}}</div>
+    <div>
+      <label for="hero-name">Nombre</label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="Nombre">
+    </div>
+  
+  </div>-->
+
+  <div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Detalles</h2>
+    <br>
+    <img [src]="hero.imagen" alt="Imagen"> <!-- Mostrar la imagen -->
+    <br>
+    <div><span>Id: </span>{{hero.id}}</div>
+    <br>
+    <div>
+      <label for="hero-name">Nombre: </label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="Nombre"/>
+    </div>
+    <br>
+    <div><label>Colores: </label>{{hero.color}}</div> <!-- Mostrando colores -->
+    <br>
+    <div><label>Chip: </label>{{hero.chip}}</div> <!-- Mostrando chip -->
+    <br>
+    <div><label>Sistema Operativo: </label>{{hero.sistemaOperativo}}</div> <!-- Mostrando sistema operativo -->
+    <br>
+    <div><label>Almacenamiento Interno: </label>{{hero.almacenamientoInterno}}</div> <!-- Mostrando almacenamiento -->
+    <br>
+    <div><label>Memoria RAM: </label>{{hero.memoriaRAM}}</div> <!-- Mostrando memoria -->
+    <br>
+    <div><label>Tamaño: </label>{{hero.tamano}}</div> <!-- Mostrando tamaño -->
+    <br>
+    <div><label>Peso: </label>{{hero.peso}}</div> <!-- Mostrando peso -->
+    <br>
+    <div><label>Resolucion de Pantalla: </label>{{hero.resolucionPantalla}}</div> <!-- Mostrando resolucion -->
+    <br>
+    <div><label>Batería: </label>{{hero.bateriaMah}}</div> <!-- Mostrando bateria -->
+    <br>
+    <div><label>Camara Principal: </label>{{hero.camaraPrincipal}}</div> <!-- Mostrando el camara principal -->
+    <br>
+    <div><label>Camara Frontal: </label>{{hero.camaraFrontal}}</div> <!-- Mostrando frontal -->
+    <br>
+    <div><label>Conectividad: </label>{{hero.conectividad}}</div> <!-- Mostrando conectividad -->
+    <br>
+    <button type="button" (click)="goBack()">Atras</button>
+  </div>

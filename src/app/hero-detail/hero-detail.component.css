@@ -1,0 +1,43 @@
+/* Ajustes para los elementos de etiqueta (label) */
+label {
+    color: black; /* Color del texto */
+    font-weight: bold; /* Estilo de fuente negrita */
+  }
+  
+  /* Ajustes para los elementos de entrada (input) */
+  input {
+    font-size: 1em; /* Tamaño de fuente */
+    padding: .5rem; /* Espaciado interior */
+  }
+  
+  /* Ajustes para los botones */
+  button {
+    margin-top: 20px; /* Margen superior */
+    background-color: #eee; /* Color de fondo */
+    padding: 1rem; /* Relleno */
+    border-radius: 4px; /* Radio de borde */
+    font-size: 1rem; /* Tamaño de fuente */
+  }
+  
+  /* Estilos al pasar el cursor sobre el botón */
+  button:hover {
+    background-color: #cfd8dc; /* Cambia el color de fondo al pasar el cursor */
+  }
+  
+  /* Estilos para botones deshabilitados */
+  button:disabled {
+    background-color: #eee; /* Color de fondo para botones deshabilitados */
+    color: #ccc; /* Color del texto para botones deshabilitados */
+    cursor: auto; /* Cambia el cursor a predeterminado para botones deshabilitados */
+  }
+  
+  /* Ajustes para las imágenes */
+  img {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    max-height: 200px; /* Alto máximo de la imagen */
+    display: block; /* Asegura que la imagen no tenga espacio adicional debajo */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+    border-radius: 4%; /* Borde de imagen con radio de 4% */
+  }
+  

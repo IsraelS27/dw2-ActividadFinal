@@ -1,0 +1,54 @@
+/* Estilos para el encabezado secundario */
+h2 {
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  /* Estilos para el contenedor de los héroes en el dashboard */
+  .heroes-menu {
+    padding: 0; /* Elimina el relleno */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    max-width: 1000px; /* Establece el ancho máximo del contenedor */
+  
+    /* Flexbox */
+    display: flex; /* Usa flexbox para organizar los elementos */
+    flex-direction: row; /* Dirección de los elementos: fila */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si es necesario */
+    justify-content: space-around; /* Distribuye uniformemente los elementos horizontalmente */
+    align-content: flex-start; /* Alinea el contenido al inicio */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+  }
+  
+  /* Estilos para los enlaces de navegación en el dashboard */
+  a {
+    background-color: #000; /* Color de fondo */
+    border-radius: 2px; /* Radio de borde */
+    padding: 1rem; /* Relleno */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    text-decoration: none; /* Elimina el subrayado */
+    display: inline-block; /* Muestra los elementos como bloques en línea */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Ancho del elemento */
+    min-width: 70px; /* Ancho mínimo */
+    margin: .5rem auto; /* Margen */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto del elemento */
+  
+    /* Flexbox */
+    order: 0; /* Orden de los elementos */
+    flex: 0 1 auto; /* Flexibilidad */
+    align-self: auto; /* Alineación del elemento respecto a su contenedor */
+  }
+  
+  /* Media query para pantallas más grandes */
+  @media (min-width: 600px) {
+    a {
+      width: 18%; /* Ancho del elemento en pantallas más grandes */
+      box-sizing: content-box; /* Incluye solo el contenido en el ancho y alto del elemento */
+    }
+  }
+  
+  /* Estilos al pasar el cursor sobre los enlaces */
+  a:hover {
+    background-color: lightslategray; /* Cambia el color de fondo al pasar el cursor */
+  }
+  
